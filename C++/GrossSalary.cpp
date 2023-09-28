@@ -1,4 +1,4 @@
-// Program to calculate Gross Salary by Aakif Mudel 
+//Program to calculate Gross Salary by Aakif Mudel 
 #include <iostream>
 #include <string>
 #include <sstream>
