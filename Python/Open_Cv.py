@@ -44,4 +44,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-# <Open_CV.py> by Moutasim Qazi
+# <Open_CV> by Moutasim Qazi
