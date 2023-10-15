@@ -1,15 +1,18 @@
 import random
 import time
 
+# Define word categories and word lists
 categories = {
     "Animals": ["elephant", "giraffe", "kangaroo", "octopus", "rhinoceros"],
     "Fruits": ["banana", "pineapple", "strawberry", "watermelon", "blueberry"],
     "Countries": ["australia", "canada", "france", "japan", "russia"]
 }
 
+# Function to get a random word from a category
 def get_random_word(category):
     return random.choice(categories[category])
 
+# Function to display the current state of the word
 def display_word(word, guessed_letters):
     displayed_word = ""
     for letter in word:
@@ -19,6 +22,7 @@ def display_word(word, guessed_letters):
             displayed_word += "_"
     return displayed_word
 
+# Main Hangman game function
 def hangman():
     category = input("Choose a category (Animals, Fruits, Countries): ").capitalize()
     word = get_random_word(category)
@@ -52,7 +56,7 @@ def hangman():
                 time.sleep(1)  # Pause for 1 second
 
         if attempts == 0:
-            time.sleep(1) # Pause for 1 second
+            time.sleep(1)  # Pause for 1 second
             print(f"Game over! The word was '{word}'")
             time.sleep(1)  # Pause for 1 second
             play_again = input("Play again? (yes/no): ").lower()
