@@ -15,6 +15,8 @@ Welcome to this repository! This repository is beginner-friendly and is designed
 
 Before you get started, please take a moment to read these contribution guidelines to ensure a smooth and enjoyable experience for everyone involved.
 
+And don't forget to give this repository a ⭐
+
 ## Getting Started 🚀
 
 1. **Fork the Repository**: Click the "Fork" button at the top right corner of this repository to create your copy of the project.
