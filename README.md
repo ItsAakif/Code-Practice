@@ -24,7 +24,7 @@ And don't forget to give this repository a ⭐
 2. **Clone Your Fork**: Clone your forked repository to your local machine using the following command:
 
    ```bash
-   git clone https://github.com/your-username/hacktoberfest-repo.git
+   git clone https://github.com/your-username/Code-Practie
    ```
 
 3. **Create a Branch**: Create a new branch for your contributions. Branch names should be descriptive, like `feature/new-code` or `fix/bug-fix`. You can create a branch using the following command:
